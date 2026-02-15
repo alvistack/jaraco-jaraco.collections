@@ -1,14 +1,12 @@
 [build-system]
 requires = [
 	"setuptools>=77",
-	"setuptools_scm[toml]>=3.4.1",
-	# jaraco/skeleton#174
-	"coherent.licensed",
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "jaraco.collections"
+version = "5.2.1"
 authors = [
 	{ name = "Jason R. Coombs", email = "jaraco@jaraco.com" },
 ]
@@ -21,11 +19,9 @@ classifiers = [
 	"Programming Language :: Python :: 3 :: Only",
 ]
 requires-python = ">=3.9"
-license = "MIT"
 dependencies = [
 	"jaraco.text",
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/jaraco.collections"
@@ -73,4 +69,3 @@ type = [
 ]
 
 
-[tool.setuptools_scm]
